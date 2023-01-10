@@ -1,20 +1,39 @@
-let myNum = 17;  //method#1
-console.log(myNum);
+// Exercise#1
 
-myNum = 19;   // Reassigning the value 
-console.log(myNum);
+const obj = new Object(); //Object Constructor KE Through Ye JAVASCRIPT Hamein Provide Karta Hai
+obj.name =" Mishal Aslam";
+obj.age = 19;
+obj.course = "Metaverse";
+obj.city = "Karachi";
+console.log(obj);
 
-var myNum1 = 21; //method#2
-console.log(myNum1);
+// Exercise#2
 
-myNum1 = 12;   // Reassigning the value 
-console.log(myNum1);
+var obj1 = {
+    name : "Mishal",
+    age : 19,
+    height : 5.8
+}
+console.log(obj1);
+
+obj1.name = "Torch"
+console.log(obj1);
 
 
-const myNum2 = 34; //method#3
-console.log(myNum2);
+// Exercise#3
 
-myNum2 = 11;   // Reassigning the value 
-console.log(myNum2);  // error
+function name (){
+    console.log("Mishal Aslam");
+}
+name();
 
+// Exercise#4
 
+function Add(a, b) {
+  console.log(a + b);
+  console.log(a - b);
+  console.log(a * b);
+  console.log(a / b);
+}
+
+Add(10 , 7)
